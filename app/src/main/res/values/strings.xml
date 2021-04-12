@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">B10</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="gas_leakage">GAS LEAKAGE</string>
+    <string name="profile">PROFILE</string>
+    <string name="about">ABOUT</string>
+    <string name="b10">B10</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="name">NAME</string>
+    <string name="mobile">MOBILE</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="register">REGISTER</string>
+    <string name="already_registered_login_here">Already Registered? Login Here</string>
+    <string name="login">LOGIN</string>
+    <string name="login_page">LOGIN PAGE</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="new_here_create_account">New Here?Create Account</string>
+</resources>

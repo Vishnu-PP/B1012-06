@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547337864242",
+    "project_id": "b10app",
+    "storage_bucket": "b10app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547337864242:android:479956f4233dba4493682b",
+        "android_client_info": {
+          "package_name": "com.example.b10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547337864242-h2hpdnrhpjvk5r5a1acq0dn3oevrovq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG69Q3iCHKRbT2Gq_5k4CG2JXv3rsBApw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547337864242-h2hpdnrhpjvk5r5a1acq0dn3oevrovq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
