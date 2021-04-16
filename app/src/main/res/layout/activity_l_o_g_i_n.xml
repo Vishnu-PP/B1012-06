@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#121212"
     tools:context=".LOGIN">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:text="@string/b10"
+        android:textColor="#B8B8B8"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_page"
+        android:textColor="#B8B8B8"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,17 +37,15 @@
         app:layout_constraintVertical_bias="0.247" />
 
 
-
-
-
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/password"
-        android:inputType="textPersonName"
-        android:textColor="#050202"
+        android:inputType="textPassword"
+        android:textColor="#B8B8B8"
+        android:textColorHint="#898989"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -53,13 +54,14 @@
         app:layout_constraintVertical_bias="0.567" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/email"
         android:inputType="textPersonName"
-        android:textColor="#000000"
+        android:textColor="#B8B8B8"
+        android:textColorHint="#898989"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -90,8 +92,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
-        />
+        app:layout_constraintVertical_bias="0.75" />
 
     <ProgressBar
         android:id="@+id/progressBar2"

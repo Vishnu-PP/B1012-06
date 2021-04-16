@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5E00E5FF"
+    android:background="#0B2830"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
         android:text="@string/dashboard"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textColorHighlight="#FFEB3B"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +28,7 @@
         android:layout_height="75dp"
         android:text="@string/gas_leakage"
         android:textColorHint="#F50057"
-        app:backgroundTint="#00B0FF"
+        app:backgroundTint="#006FB8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.797"
@@ -41,7 +41,7 @@
         android:layout_width="150dp"
         android:layout_height="75dp"
         android:text="@string/profile"
-        app:backgroundTint="#00B0FF"
+        app:backgroundTint="#006FB8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.195"
@@ -51,11 +51,11 @@
         app:strokeColor="#FFEA00" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/about"
-        app:backgroundTint="#00B0FF"
+        app:backgroundTint="#006FB8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -63,18 +63,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.793" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/log_out"
-        app:backgroundTint="#00B0FF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        android:onClick="button"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

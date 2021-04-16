@@ -32,6 +32,7 @@ public class REGISTER extends AppCompatActivity {
 
         mFullName = findViewById(R.id.name);
         mEmail = findViewById(R.id.email);
+        mMobile = findViewById(R.id.mobile);
         mPassword = findViewById(R.id.password);
         mRegisterBtn = findViewById(R.id.registerbtn);
         mLoginBtn = findViewById(R.id.login);
