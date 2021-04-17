@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -43,5 +44,15 @@ public class MainActivity extends AppCompatActivity {
          });
 
 
+    }
+    int counter = 0;
+    @Override
+    public void onBackPressed() {
+        counter++;
+        if(counter ==1){
+            Toast.makeText(getBaseContext(),"Press Back Again To Exit", Toast.LENGTH_SHORT).show();
+        }
+
+        else{ super.onBackPressed();}
     }
 }

@@ -11,17 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.B10">
-        <activity android:name=".ABOUT"></activity>
-        <activity android:name=".LOGIN" />
-        <activity android:name=".REGISTER">
+        <activity android:name=".ABOUT"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".LOGIN"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".REGISTER"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PROFILE" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".PROFILE"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
